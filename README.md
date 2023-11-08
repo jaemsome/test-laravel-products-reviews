@@ -4,9 +4,9 @@ To generate dummy data for products and reviews (5 records each at a time)<br/>
 </p>
 
 <p>
-Database Location {app_root}/database<br/>
-Production DB: {app_root}/database/database.sqlite<br/>
-Testing DB: {app_root}/database/testing.sqlite
+Database Location: <code>{app_root}/database</code><br/>
+Production DB: <code>{app_root}/database/database.sqlite</code><br/>
+Testing DB: <code>{app_root}/database/testing.sqlite</code>
 </p>
 
 <p>
@@ -15,15 +15,19 @@ Returns an empty array if nothing is found.<br/>
 <code>GET: https://{domain}/api/products</code>
 </p>
 
-<h3>Retrieve a single Product with its reviews.</h3>
-<h3>Returns null to product field and error message.</h3>
+<p>
+Retrieve a single Product with its reviews.<br/>
+Returns null to product field and error message.<br/>
 <code>GET: https://{domain}/api/products/{id}</code>
+</p>
 
-<h3>Create a new Product.</h3>
-<h3>Required: name, price | Optional: description</h3>
-<h3>Name: String | Price: Limits to 2 decimal places</h3>
-<h3>When it fails, returns null to product field and error message.</h3>
+<p>
+Create a new Product.<br/>
+Required: name, price | Optional: description<br/>
+Name: String | Price: Limits to 2 decimal places<br/>
+When it fails, returns null to product field and error message.<br/>
 <code>POST: https://{domain}/api/products</code>
+</p>
 
 <h3>Create a new Product Review.</h3>
 <h3>Required: name, rating | Optional: comment</h3>
