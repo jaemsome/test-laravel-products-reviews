@@ -9,6 +9,7 @@ Production DB: <code>{app_root}/database/database.sqlite</code><br/>
 Testing DB: <code>{app_root}/database/testing.sqlite</code>
 </p>
 <br/><hr/><br/>
+<h1>Endpoints:</h1>
 <p>
 <b>Retrieve a list of Products with their reviews.</b><br/>
 <i>Returns an empty array if nothing is found.</i><br/>
