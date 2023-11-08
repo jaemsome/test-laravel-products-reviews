@@ -1,16 +1,18 @@
 <p>To generate dummy data for products and reviews (5 records each at a time)</p>
 <code>php artisan db:seed</code>
-
+<br/>
 <p>
 Database Location {app_root}/database<br/>
 Production DB: {app_root}/database/database.sqlite<br/>
 Testing DB: {app_root}/database/testing.sqlite
 </p>
 
-<h1>Endpoints:<h1>
-<h3>Retrieve a list of Products with their reviews.</h3>
-<h3>Returns an empty array if nothing is found.</h3>
+<h5>Endpoints:</h5>
+<p>
+Retrieve a list of Products with their reviews.<br/>
+Returns an empty array if nothing is found.<br/>
 <code>GET: https://{domain}/api/products</code>
+</p>
 
 <h3>Retrieve a single Product with its reviews.</h3>
 <h3>Returns null to product field and error message.</h3>
