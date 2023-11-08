@@ -8,7 +8,9 @@ Database Location: <code>{app_root}/database</code><br/>
 Production DB: <code>{app_root}/database/database.sqlite</code><br/>
 Testing DB: <code>{app_root}/database/testing.sqlite</code>
 </p>
-<br/><hr/><br/>
+
+<br/>
+
 <h1>Endpoints:</h1>
 <p>
 <b>Retrieve a list of Products with their reviews.</b><br/>
@@ -51,7 +53,10 @@ Name: String | Price: Limits to 2 decimal places<br/>
 <i>Returns a product object on successful, null and error message if fails / no records found.</i><br/>
 <code>DELETE: https://{domain}/api/products/{id}</code>
 </p>
-<br/><hr/><br/>
+
+<br/>
+
+<h1>Tests:</h1>
 <p>
 To do a test to all API endpoints<br/>
 <code>php artisan test --filter=ProductControllerTest</code>
