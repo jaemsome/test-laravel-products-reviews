@@ -29,34 +29,49 @@ When it fails, returns null to product field and error message.<br/>
 <code>POST: https://{domain}/api/products</code>
 </p>
 
-<h3>Create a new Product Review.</h3>
-<h3>Required: name, rating | Optional: comment</h3>
-<h3>Name: String | Rating: Between 1 to 5</h3>
-<h3>When it fails, returns null to review field and error message.</h3>
+<p>
+Create a new Product Review.<br/>
+Required: name, rating | Optional: comment<br/>
+Name: String | Rating: Between 1 to 5<br/>
+When it fails, returns null to review field and error message.<br/>
 <code>POST: https://{domain}/api/products/{id}/reviews</code>
+</p>
 
-<h3>Update a Product.</h3>
-<h3>Required: name, price | Optional: description</h3>
-<h3>Name: String | Price: Limits to 2 decimal places</h3>
-<h3>When it fails, returns null to product field and error message.</h3>
+<p>
+Update a Product.<br/>
+Required: name, price | Optional: description<br/>
+Name: String | Price: Limits to 2 decimal places<br/>
+When it fails, returns null to product field and error message.<br/>
 <code>PUT: https://{domain}/api/products/{id}</code>
+</p>
 
-<h3>Delete a Product.</h3>
-<h3>Returns a product object on successful, null and error message if fails / no records found.</h3>
+<p>
+Delete a Product.<br/>
+Returns a product object on successful, null and error message if fails / no records found.<br/>
 <code>DELETE: https://{domain}/api/products/{id}</code>
+</p>
 
-<h1>Tests:<h1>
-<h3>To do a test to all API endpoints</h3>
+<p>
+To do a test to all API endpoints<br/>
 <code>php artisan test --filter=ProductControllerTest</code>
+</p>
 
-<h3>To do a test relates to creating a product</h3>
+<p>
+To do a test relates to creating a product<br/>
 <code>php artisan test --group=create_product</code>
+</p>
 
-<h3>To do a test relates to updating a product</h3>
+<p>
+To do a test relates to updating a product<br/>
 <code>php artisan test --group=updating_product</code>
+</p>
 
-<h3>To do a test relates to deleting a product</h3>
+<p>
+To do a test relates to deleting a product<br/>
 <code>php artisan test --group=delete_product</code>
+</p>
 
-<h3>To do a test relates to creating a product review</h3>
+<p>
+To do a test relates to creating a product review<br/>
 <code>php artisan test --group=create_product_review</code>
+</p>
