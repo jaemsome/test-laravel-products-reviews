@@ -50,7 +50,7 @@ Name: String | Price: Limits to 2 decimal places<br/>
 <i>Returns a product object on successful, null and error message if fails / no records found.</i><br/>
 <code>DELETE: https://{domain}/api/products/{id}</code>
 </p>
-
+<br/><br/>
 <p>
 To do a test to all API endpoints<br/>
 <code>php artisan test --filter=ProductControllerTest</code>
