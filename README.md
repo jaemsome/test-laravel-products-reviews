@@ -1,9 +1,11 @@
 <h3>To generate dummy data for products and reviews (5 records each at a time)</h3>
 <code>php artisan db:seed<code>
 
-<h3>Database Location {app_root}/database</h3>
-<h3>Production DB: {app_root}/database/database.sqlite</h3>
-<h3>Testing DB: {app_root}/database/testing.sqlite</h3>
+<h3>
+Database Location {app_root}/database<br/>
+Production DB: {app_root}/database/database.sqlite<br/>
+Testing DB: {app_root}/database/testing.sqlite
+</h3>
 
 <h1>Endpoints:<h1>
 <h3>Retrieve a list of Products with their reviews.</h3>
