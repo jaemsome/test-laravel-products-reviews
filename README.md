@@ -11,13 +11,13 @@ Testing DB: <code>{app_root}/database/testing.sqlite</code>
 
 <p>
 Retrieve a list of Products with their reviews.<br/>
-Returns an empty array if nothing is found.<br/>
+<i>Returns an empty array if nothing is found.</i><br/>
 <code>GET: https://{domain}/api/products</code>
 </p>
 
 <p>
 Retrieve a single Product with its reviews.<br/>
-Returns null to product field and error message.<br/>
+<i>Returns null to product field and error message.</i><br/>
 <code>GET: https://{domain}/api/products/{id}</code>
 </p>
 
@@ -25,7 +25,7 @@ Returns null to product field and error message.<br/>
 Create a new Product.<br/>
 Required: name, price | Optional: description<br/>
 Name: String | Price: Limits to 2 decimal places<br/>
-When it fails, returns null to product field and error message.<br/>
+<i>When it fails, returns null to product field and error message.</i><br/>
 <code>POST: https://{domain}/api/products</code>
 </p>
 
@@ -33,7 +33,7 @@ When it fails, returns null to product field and error message.<br/>
 Create a new Product Review.<br/>
 Required: name, rating | Optional: comment<br/>
 Name: String | Rating: Between 1 to 5<br/>
-When it fails, returns null to review field and error message.<br/>
+<i>When it fails, returns null to review field and error message.</i><br/>
 <code>POST: https://{domain}/api/products/{id}/reviews</code>
 </p>
 
@@ -41,13 +41,13 @@ When it fails, returns null to review field and error message.<br/>
 Update a Product.<br/>
 Required: name, price | Optional: description<br/>
 Name: String | Price: Limits to 2 decimal places<br/>
-When it fails, returns null to product field and error message.<br/>
+<i>When it fails, returns null to product field and error message.</i><br/>
 <code>PUT: https://{domain}/api/products/{id}</code>
 </p>
 
 <p>
 Delete a Product.<br/>
-Returns a product object on successful, null and error message if fails / no records found.<br/>
+<i>Returns a product object on successful, null and error message if fails / no records found.</i><br/>
 <code>DELETE: https://{domain}/api/products/{id}</code>
 </p>
 
