@@ -10,19 +10,19 @@ Testing DB: <code>{app_root}/database/testing.sqlite</code>
 </p>
 
 <p>
-Retrieve a list of Products with their reviews.<br/>
+<b>Retrieve a list of Products with their reviews.</b><br/>
 <i>Returns an empty array if nothing is found.</i><br/>
 <code>GET: https://{domain}/api/products</code>
 </p>
 
 <p>
-Retrieve a single Product with its reviews.<br/>
+<b>Retrieve a single Product with its reviews.</b><br/>
 <i>Returns null to product field and error message.</i><br/>
 <code>GET: https://{domain}/api/products/{id}</code>
 </p>
 
 <p>
-Create a new Product.<br/>
+<b>Create a new Product.</b><br/>
 Required: name, price | Optional: description<br/>
 Name: String | Price: Limits to 2 decimal places<br/>
 <i>When it fails, returns null to product field and error message.</i><br/>
@@ -30,7 +30,7 @@ Name: String | Price: Limits to 2 decimal places<br/>
 </p>
 
 <p>
-Create a new Product Review.<br/>
+<b>Create a new Product Review.</b><br/>
 Required: name, rating | Optional: comment<br/>
 Name: String | Rating: Between 1 to 5<br/>
 <i>When it fails, returns null to review field and error message.</i><br/>
@@ -38,7 +38,7 @@ Name: String | Rating: Between 1 to 5<br/>
 </p>
 
 <p>
-Update a Product.<br/>
+<b>Update a Product.</b><br/>
 Required: name, price | Optional: description<br/>
 Name: String | Price: Limits to 2 decimal places<br/>
 <i>When it fails, returns null to product field and error message.</i><br/>
@@ -46,7 +46,7 @@ Name: String | Price: Limits to 2 decimal places<br/>
 </p>
 
 <p>
-Delete a Product.<br/>
+<b>Delete a Product.</b><br/>
 <i>Returns a product object on successful, null and error message if fails / no records found.</i><br/>
 <code>DELETE: https://{domain}/api/products/{id}</code>
 </p>
