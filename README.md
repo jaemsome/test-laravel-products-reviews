@@ -8,7 +8,7 @@ Database Location: <code>{app_root}/database</code><br/>
 Production DB: <code>{app_root}/database/database.sqlite</code><br/>
 Testing DB: <code>{app_root}/database/testing.sqlite</code>
 </p>
-
+<br/><br/>
 <p>
 <b>Retrieve a list of Products with their reviews.</b><br/>
 <i>Returns an empty array if nothing is found.</i><br/>
