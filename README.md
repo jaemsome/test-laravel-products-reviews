@@ -5,7 +5,7 @@ To generate dummy data for products and reviews (5 records each at a time)<br/>
 
 <p>
 Database Location: <code>{app_root}/database</code><br/>
-Production DB: <code>{app_root}/database/database.sqlite</code><br/>
+Application DB: <code>{app_root}/database/database.sqlite</code><br/>
 Testing DB: <code>{app_root}/database/testing.sqlite</code>
 </p>
 
